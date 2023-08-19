@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.row{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center
+}
+.login{
+    margin: 10px 10px;
+    
+    
+}
+.button{
+    background-color: blue;
+}
+.profile{
+    background-color: #f8f8f8;
+}
+h3{
+    display: flex;
+    color: #337ab7;
+    text-decoration: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-around;
+    color: black;
+} 
+.Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: solid whitesmoke;
+}
+
+.color{
+    background-color: whitesmoke;
+}
+button{
+    background-color: blue;
+    color: white;
+    display: flex;
+    color:white;
+    text-decoration: none;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    
+}
+
+.blogs{
+    width: auto ;
+    height :auto;
+    max-width:49%;
+    min-height: fit-content;
+    box-shadow: rgba(0, 0, 0, .1) 0 -1rem 1rem -.25rem;
+    border: solid 3px whitesmoke;
+    
+
+
+
+}
+
+
+
+/* heelo */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  .blog-editor {
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: solid blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+  #title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  #description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  #publish {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  #blog {
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  #edit, #delete {
+    color: blue;
+    background-color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+
+  }
+  .blog-list{
+    border: solid skyblue;
+  }
+  #publishedBlogs{
+
+  }
+
+
+ .col-sm-4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+ }
+
+ .updatep{
+    isplay: flex;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+
+  
